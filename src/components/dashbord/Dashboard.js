@@ -7,7 +7,7 @@ import { RiCalendarCheckLine,
          RiSettings3Line, 
          RiFolderChartLine 
         } from "react-icons/ri";
-import vector from "../../style/img/team-spirit.svg"
+import Vector from "../../style/img/team-spirit.svg"
 
 const navItems=[
     {
@@ -57,7 +57,7 @@ const DasboardLayout=({children})=>{
                     {navItems.map((navItem, index)=>(
                         <Link key={index} to={navItem.link}>
                 
-                            <div  className={`nav-item ${navItem.link === location.pathname?'selected':''}`}>
+                            <div className={`nav-item ${navItem.link === location.pathname?'selected':''}`}>
                                 {navItem.icon}
                                 <label className="item-name">{navItem.name}</label>
                             </div>
@@ -67,7 +67,7 @@ const DasboardLayout=({children})=>{
                 </div>
                 
                 <div className="image-container">
-                    <vector />                
+                <img className="worksvg" src={Vector} alt={"SVG"} />              
                 </div>
             </nav>
             

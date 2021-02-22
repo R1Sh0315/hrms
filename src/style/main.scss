@@ -6,6 +6,14 @@
 @import "../components/dashbord/dashboard";
 @import "../components/header/input/input";
 @import "../components/avatar/avatar";
+@import "../components/body/body";
+@import "../components/body/notificationBody/notificationbody";
+@import "../components/body/calender/calender";
+@import "../components/body/recruiterstat/recruiterstat";
+@import "../components/body/recruiterstat/header/recruthead";
+@import "../components/body/userstat/userstat";
+@import "../components/body/userstat/userprofile/userprofile";
+@import "../components/body/userstat/userdetails/userdetails.scss";
 
 //screen
 @import "../screen/home/home";

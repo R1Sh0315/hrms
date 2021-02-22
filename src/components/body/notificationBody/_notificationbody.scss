@@ -1,0 +1,19 @@
+.notification-container{
+    border:1px solid $hr_accent;
+    background-color: $hr_accent;
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 20px;
+    border-radius: 25px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    .main-body{
+        width: 100%;
+    }
+    .notification-svg{
+        // height: 100px;
+        width: 220px;
+    }
+
+}

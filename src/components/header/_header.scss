@@ -16,5 +16,31 @@
     .profile-container{
         display: flex;
         align-items: center;
+        img{
+            margin-left: 16px;
+            align-items: center;
+        }
+    }
+    .hover-action{
+        // transition: 0.3s all ease-in-out;
+        border:none;
+        input{
+            transition: 0.3s all ease-in-out;
+            visibility: hidden;
+            width: 200px;
+        }
+        &:focus-within{
+            input{
+                visibility: visible;
+                width: 200px;
+            }
+        }
+        &:hover{
+            // border:1px solid $hr_gray1;
+            input{
+                visibility: visible;
+                width: auto;
+            }
+        }
     }
 }

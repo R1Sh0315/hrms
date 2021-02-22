@@ -1,0 +1,61 @@
+.recrut-head{
+    display: flex;
+    // border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    // .heading{}
+    .viewall{
+        .view-all-recruter-btn{
+            border: none;
+            border-radius: 25px;
+            background-color: $hr_accent;
+            height: 30px;
+            width: 150px;
+            margin-right: 20px;
+            font-weight: 700;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.list-header{
+    display: flex;
+    .sub-list-head{
+        // border: $hr_testBorder;
+        margin-top: 15px;
+        width: 100%;
+        font-weight: 700;
+    }
+}
+.recruter-list{
+    display: flex;
+    .sub-list-head{
+        // border: $hr_testBorder;
+        width: 100%;
+
+    }
+    .recrut-det{
+        display: flex;
+        width: 100%;
+        margin-top: 15px;
+        font-weight: 300;
+    }
+    .for-more{
+        display: flex;
+        justify-content: center;
+        color: gray;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
