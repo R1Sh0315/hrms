@@ -41,20 +41,21 @@ const recrutheading=()=>{
                 </div>
             </div>
             <div>
+
                 <div className="list-header">
                     <div className="sub-list-head">Full Name</div>
                     <div className="sub-list-head">Designation</div>
                     <div className="sub-list-head">Satatus</div>
                     <div className="sub-list-head"></div>
                 </div>
-                {/* <div className="recruter-list" > */}
+
                 {recruterDetails.map((recruterDetail, index)=>(
-                <div className="recruter-list" key={index} >
-                    <div className="recrut-det">{recruterDetail.name}</div>
-                    <div className="recrut-det">{recruterDetail.designation}</div>
-                    <div className="recrut-det">{recruterDetail.status}</div>
-                    <div className="for-more">{recruterDetail.moredetail}</div>
-                </div>
+                    <div className="recruter-list" key={index} >
+                        <div className="recrut-det">{recruterDetail.name}</div>
+                        <div className="recrut-det">{recruterDetail.designation}</div>
+                        <div className="recrut-det">{recruterDetail.status}</div>
+                        <div className="for-more">{recruterDetail.moredetail}</div>
+                    </div>
                 ))}
                 </div>
             </div>

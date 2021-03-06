@@ -1,4 +1,5 @@
 import React from "react";
+import authenticate from "../../hoc/authentication";
 
 function Recruitment(){
     return(
@@ -7,4 +8,4 @@ function Recruitment(){
     </div>);
 }
 
-export default Recruitment;
+export default authenticate(Recruitment);
